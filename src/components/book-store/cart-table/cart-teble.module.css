@@ -1,0 +1,44 @@
+.wrapp{
+    margin-top: 50px;
+}
+.wrapp h2{
+    text-align: left;
+}
+.table{
+    margin-top: 30px;
+
+}
+.command_line{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.table_1{
+    width: 100%;
+    font-size: 20px;
+}
+.head_table{
+    border: 1px solid wheat;
+
+
+}
+.head_table tr{
+    margin-bottom: 20px;
+}
+table,th,td{
+    border: 1px solid grey;
+    text-align:center;
+}
+
+th,td{
+    padding:10px;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: right;
+    align-items: flex-end;
+    margin-top: 20px;
+}

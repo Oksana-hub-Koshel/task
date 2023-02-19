@@ -1,0 +1,49 @@
+.wrapp{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    gap:30px
+
+
+
+}
+.card{
+    width: 30%;
+}
+
+.image{
+    width: 100%;
+    height: 100px;
+    /*width: 100%;*/
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+.descrip_text{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.manage_panel{
+    display: flex;
+    justify-content: space-between;
+}
+.manage_panel_block{
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}

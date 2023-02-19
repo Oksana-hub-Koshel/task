@@ -1,0 +1,36 @@
+.header_wrapp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.cart_icon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.cart_icon div{
+    font-size: 20px;
+}
+.lists{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.book_block{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.img_book{
+    width: 180px;
+    height: 200px;
+}
+.info_book{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
