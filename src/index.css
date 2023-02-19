@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: PlayfairDisplay;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #353333;
+color:     lightgray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+margin-top: 30px;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 100px;
+
+
+}
+.outlet{
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+  align-items: flex-start;
+  margin-bottom: 100px
+}
+a{
+  text-decoration: none;
+}
+.block_list{
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  align-items: center;
+}
+.button{
+  padding: 10px;
+  background-color: #9badbf;
+  font-size: 14px;
+  width: 100px;
+}
+.footer{
+  /*position: absolute;*/
+  /*  bottom: 0;*/
+  /*  width: 100%;*/
+  /*  !* Высота footer *!*/
+  height: 150px;
+  background-color: #222222;
+  /*  margin-top: 30px;*/
+  position: absolute;
+  left: 0;
+  /*bottom: 0;*/
+  width: 100%;
+
+
+
+}
+.foot_text{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+

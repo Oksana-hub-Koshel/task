@@ -28,6 +28,8 @@ export const Header = () => {
                         </ul>
                         <div className="d-flex">
                             <Link to="cart" className="btn btn-secondary my-2 my-sm-0">My cart</Link>
+                            <button>En</button>
+
                         </div>
                     </div>
                 </div>
