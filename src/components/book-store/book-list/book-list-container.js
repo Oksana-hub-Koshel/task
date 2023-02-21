@@ -30,7 +30,7 @@ const BookListContainer = () => {
         <>
             <BookListHeader/>
             <BookListItems />
-            <CartTable/>
+            {/*<CartTable/>*/}
         </>
     );
 

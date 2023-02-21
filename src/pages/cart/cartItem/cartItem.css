@@ -15,8 +15,8 @@
 }
 
 .cartItem__info > button{
-    border: unset;
-    margin-top: 10px;
+    border: 1px solid grey;
+
     border-radius: 5px;
     background-color: transparent;
 }
@@ -65,7 +65,10 @@
 }
 
 .cartItem__removeButton{
-    color: rgb(241, 131, 131);
+    color: rgb(16, 16, 107);
+    font-weight: bolder;
+    box-shadow: #9badbf;
+
 }
 
 .cartItem__removeButton:hover{

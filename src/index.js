@@ -10,6 +10,8 @@ import {BookstoreServiceProvider} from "./components/bookservice-context/bookser
 import {BrowserRouter} from "react-router-dom";
 import i18n from "./i18n"
 import {Suspense} from "react";
+import Spinner from "./components/spinner/spinner";
+
 
 
 

@@ -1,6 +1,7 @@
 import './cartItem.css'
 import {useDispatch} from "react-redux";
 import {bookRemoveFromCart, decrementQuantity, incrementQuantity} from "../../../redux/reducers/shoppingSlice";
+import Button from "@mui/material/Button";
 
 function CartItem({id, image, title, price, quantity=0}) {
 const dispatch=useDispatch()
@@ -19,7 +20,7 @@ const dispatch=useDispatch()
                     <p>{quantity}</p>
                     <button onClick={() => dispatch(incrementQuantity(id))}>+</button>
                 </div>
-                <button className='cartItem__removeButton' onClick={() => dispatch( bookRemoveFromCart(id))}>Remove</button>
+                <Button className='cartItem__removeButton' onClick={() => dispatch( bookRemoveFromCart(id))}>Remove</Button>
             </div>
         </div>
     )

@@ -4,10 +4,18 @@
     margin-top: 30px;
     margin-bottom: 10px;
 }
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .cart_icon{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap:10px;
+}
+.cart_icon p{
+    color: lightgray;
 }
 .cart_icon div{
     font-size: 20px;

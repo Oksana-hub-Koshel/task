@@ -2,9 +2,22 @@ import React from 'react';
 import s from "./book-list.module.css";
 import {Link} from "react-router-dom";
 import {useTranslation} from "react-i18next";
+import Total, {getTotal} from "../../total/total";
+import {useSelector} from "react-redux";
 
 const BookListHeader = () => {
-    const count=2
+    const cart=useSelector(state=> state.cart.cart)
+
+    const getTotal = () => {
+        let totalQuantity = 0
+        let totalPrice = 0
+        cart.forEach(item => {
+            totalQuantity += item.quantity
+            totalPrice += item.price * item.quantity
+        })
+        return {totalPrice, totalQuantity}
+    }
+
     const {t, i18n}=useTranslation()
     return (
         <>
@@ -15,10 +28,15 @@ const BookListHeader = () => {
                 <Link to="/cart">
                     <div className={s.cart_icon}>
                         <i className="bi bi-bag-check-fill" style={{color: "wheat"}}></i>
-                        <div> 5 {t("items", {count})} (200 $)</div>
+                        <p className="total__p">
+                            {getTotal().totalQuantity} items
+                            : <strong>${getTotal().totalPrice}</strong>
+                        </p>
 
                     </div>
                 </Link>
+
+
 
             </div>
             <hr></hr>
