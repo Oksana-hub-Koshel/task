@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Production-Ready Microservices",
+    "author": "Susan J",
+    "price": 170,
+    "image": "https://static.insalescdn.com/images/products/1/6193/615864369/978-5-389-14747-8.jpg"            },
+  {
+    "id": 2,
+    "title": "Release IT",
+    "author": "Michael T",
+    "price": 220,
+    "image": "https://static.insalescdn.com/images/products/1/6320/615864496/978-5-389-04786-0.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Release IT",
+    "author": "Michael T",
+    "price": 220,
+    "image": "https://static.insalescdn.com/images/products/1/6320/615864496/978-5-389-04786-0.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Release IT",
+    "author": "Michael T",
+    "price": 220,
+    "image": "https://static.insalescdn.com/images/products/1/6320/615864496/978-5-389-04786-0.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Release IT",
+    "author": "Michael T",
+    "price": 220,
+    "image": "https://static.insalescdn.com/images/products/1/6320/615864496/978-5-389-04786-0.jpg"
+  }
+]

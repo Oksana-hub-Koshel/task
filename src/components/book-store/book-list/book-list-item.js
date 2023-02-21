@@ -2,10 +2,12 @@ import React from 'react';
 import s from "./book-list.module.css"
 import {useDispatch} from "react-redux";
 import {bookAddedToCart} from "../../../redux/reducers/shoppingSlice";
+import {useTranslation} from "react-i18next";
 
 const BookListItem = ({book}) => {
     const {title, author, price, image}=book;
     const dispatch=useDispatch()
+    const {t, i18n}=useTranslation()
 
     const onAddedToCart=(book)=>{
         dispatch(bookAddedToCart(book))
@@ -22,7 +24,7 @@ const BookListItem = ({book}) => {
                 <span style={{fontSize:20, }}>$ {price}</span>
                 <button className="btn-outline-primary"
                         onClick={()=>onAddedToCart(book)}
-                        style={{height:40, width:150, backgroundColor:"wheat", color:"black"}}>Add to Cart</button>
+                        style={{height:40, width:150, backgroundColor:"wheat", color:"black"}}>{t("Add to Cart")}</button>
 
             </div>
         </div>

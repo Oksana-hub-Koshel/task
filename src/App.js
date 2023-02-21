@@ -7,13 +7,19 @@ import {AuthProvider} from "./hoc/AuthProvider";
 import RequireAuth from "./hoc/RequireAuth";
 import {Header} from "./components/header/header";
 import Footer from "./components/footer/footer";
+import Carousel from "./components/carousel/carousel";
+import React from "react";
+
 
 
 function App() {
+
     return (
         <AuthProvider>
             <Header />
+
             <div className="App">
+                <Carousel />
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/news" element={<News/>}/>
@@ -25,8 +31,9 @@ function App() {
                     }/>
                 </Routes>
             </div>
-            <Footer />
+            {/*<Footer />*/}
             </AuthProvider>
+
 
     );
 }

@@ -1,0 +1,9 @@
+.lang_buttons{
+    display: flex;
+    align-items: center;
+}
+.lang_buttons {
+    margin-right: 10px;
+    display: flex;
+    gap:10px
+}

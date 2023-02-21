@@ -1,5 +1,6 @@
-class API {
-    location = "https://fakestoreapi.com"
+class NewsStoreService {
+    location = "https://fakestoreapi.com/products/"
+
 
     async getSource(url) {
         return await fetch(`${this.location}${url}`)
@@ -16,8 +17,15 @@ class API {
 
 
     getAllNews = async () => {
-        return await this.getSource('/products?limit=6');
-
+        // return await this.getSource('/products/');
+        return await fetch(`${this.location}`)
+            .then((res) => {
+                    if (res.ok) {
+                        return res.json()
+                    }
+                },
+            )
+            .catch((error) => console.log(error.message))
     }
 
     getNew = async (id) => {
@@ -28,4 +36,4 @@ class API {
 
 }
 
-export default new API()
+export default new NewsStoreService()

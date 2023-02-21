@@ -1,0 +1,23 @@
+{
+  "home" : "Home" ,
+  "news" : "News" ,
+  "profile": "Profile",
+  "items": "items",
+  "Add to Cart": "Add to Cart",
+  "Your Order": "Your Order",
+  "Item": "Item",
+  "Count": "Count",
+  "Total": "Total",
+  "Action": "Action",
+  "Checkout": "Checkout",
+  "Read more": "Read more",
+  "Delete": "Delete",
+  "Get more": "Get more",
+  "Your Profile": "Your Profile",
+  "Back home": "Back home",
+  "Name": "Name",
+  "City": "City",
+  "Email": "Email",
+  "Order": "Order"
+
+}

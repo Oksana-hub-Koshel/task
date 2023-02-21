@@ -28,7 +28,7 @@
 }
 .descrip_text{
     width: 100%;
-    height: 60px;
+    height: 100px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -44,6 +44,13 @@
 
 }
 .icon{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+}
+.title_block{
+    background: aliceblue;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
