@@ -12,6 +12,12 @@ const CartTable = () => {
     const dispatch=useDispatch();
     const {t, i18n}=useTranslation()
     const items=useSelector(state=> state.cart.cartItems)
+    const order=useSelector(state=>state.cart.orderTotal)
+
+
+    const onAddedToCart=(book)=>{
+        dispatch(bookAddedToCart(book))
+    }
 
     return (
         <div className={s.wrapp}>
@@ -40,8 +46,8 @@ const CartTable = () => {
                                 <td>$ {total}</td>
                                 <td className={s.command_line}>
                                     <i className="bi bi-dash-circle" onClick={()=>dispatch(bookRemoveFromCart(item))}></i>
-                                    <i className="bi bi-plus-circle" onClick={()=>dispatch(bookAddedToCart(item))}></i>
-                                    <i className="bi bi-trash3" onClick={()=>dispatch( deleteAllBooksFromCart(item))}></i>
+                                    <i className="bi bi-plus-circle" onClick={()=>onAddedToCart(item)}></i>
+                                    {/*<i className="bi bi-trash3" onClick={()=>dispatch( deleteAllBooksFromCart(item))}></i>*/}
                                 </td>
                             </tr>
                         )
@@ -51,8 +57,15 @@ const CartTable = () => {
                     </tbody>
                 </table>
                 <div className={s.total}>
-                    <h5>Total:{items.total} $</h5>
-                    <button className="btn-outline-primary" style={{height:40, width:150, backgroundColor:"wheat", color:"black"}}>{t("Checkout")}</button>
+
+                    <h5>Total:{order} $ </h5>
+
+                    <button className="btn-outline-primary" style={{
+                        height: 40,
+                        width: 150,
+                        backgroundColor: "wheat",
+                        color: "black"
+                    }}>{t("Checkout")}</button>
                 </div>
 
             </div>

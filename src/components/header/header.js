@@ -82,7 +82,7 @@ export const Header = () => {
                                     </Select>
                                 </FormControl>
                             </div>
-                            <Link to="cart" className="btn btn-secondary my-2 my-sm-0">My cart</Link>
+                            <Link to="/cart" className="btn btn-secondary my-2 my-sm-0">My cart</Link>
 
                         </div>
                     </div>

@@ -6,8 +6,10 @@ import {Link} from "react-router-dom"
 import s from "./carousel.module.css"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {useTranslation} from "react-i18next";
 
 const Carousel = () => {
+    const {t, i18n}=useTranslation()
     const settings = {
         className: "center",
         centerMode: true,
@@ -17,6 +19,8 @@ const Carousel = () => {
         speed: 500
     };
     return (
+        <div className={s.wrapp}>
+        <div>{t("Our Bestsellers:")}</div>
         <Slider {...settings}>
             {data &&
                 data.map(item => {
@@ -38,6 +42,7 @@ const Carousel = () => {
                     );
                 })}
         </Slider>
+        </div>
     )
 
 };

@@ -6,3 +6,9 @@
     width: 150px;
     height: 170px;
 }
+.wrapp{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    font-size: 25px;
+}

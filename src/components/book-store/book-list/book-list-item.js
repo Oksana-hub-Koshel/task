@@ -5,9 +5,10 @@ import {bookAddedToCart} from "../../../redux/reducers/shoppingSlice";
 import {useTranslation} from "react-i18next";
 
 const BookListItem = ({book}) => {
-    const {title, author, price, image}=book;
+    const {title, author, price, image, id}=book;
     const dispatch=useDispatch()
     const {t, i18n}=useTranslation()
+
 
     const onAddedToCart=(book)=>{
         dispatch(bookAddedToCart(book))

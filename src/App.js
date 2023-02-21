@@ -9,6 +9,7 @@ import {Header} from "./components/header/header";
 import Footer from "./components/footer/footer";
 import Carousel from "./components/carousel/carousel";
 import React from "react";
+import Cart from "./pages/cart/cart";
 
 
 
@@ -19,10 +20,10 @@ function App() {
             <Header />
 
             <div className="App">
-                <Carousel />
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/news" element={<News/>}/>
+                    <Route path='/cart' element={<Cart />}/>
                     <Route path="/profile" element={<Profile/>}/>
                     <Route path="/profile" element={
                         <RequireAuth>
