@@ -29,7 +29,7 @@ const BookListHeader = () => {
                     <div className={s.cart_icon}>
                         <i className="bi bi-bag-check-fill" style={{color: "wheat"}}></i>
                         <p className="total__p">
-                            {getTotal().totalQuantity} items
+                            {getTotal().totalQuantity} {t("items")}
                             : <strong>${getTotal().totalPrice}</strong>
                         </p>
 

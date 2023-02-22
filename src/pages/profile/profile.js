@@ -2,11 +2,14 @@ import React from 'react';
 import s from "./profile.module.css"
 import image from "./../../mocks/6eb455006756ab310d538ee57bdb1684.jpg"
 import {Avatar} from "@mui/material";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {useTranslation} from "react-i18next";
+import {useAuth} from "../../hooks/useAuth";
 
 const Profile = () => {
     const {t, i18n}=useTranslation()
+    const navigate=useNavigate()
+    const {signOut}=useAuth()
     return (
         <>
         <div className={s.container}>
@@ -27,6 +30,10 @@ const Profile = () => {
                 <div className={s.info_field}>{t("Order")}: </div>
                 <div className={s.link_home}>
                     <Link to="/" >{t("Back home")}</Link>
+                </div>
+
+                <div className={s.link_home}>
+                    <button onClick={()=> signOut(()=> navigate("/", {replace:true}))}>Sign Out</button>
                 </div>
 
             </div>

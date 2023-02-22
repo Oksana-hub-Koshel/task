@@ -5,11 +5,13 @@ import newsSlice from "./reducers/newsSlice";
 
 
 
+
 const store = configureStore({
     reducer: {
         books: bookSlice,
         cart: shoppingSlice,
-        news: newsSlice
+        news: newsSlice,
+
     },
 });
 export default store
