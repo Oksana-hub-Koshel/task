@@ -40,9 +40,7 @@ const News = () => {
     useEffect(()=>{
         dispatch(fetchNews())
 
-      // NewsStoreService.getAllNews().then((res)=>{
-      //       setElements([...res])
-      //   })
+
 
 
     }, [])
@@ -91,7 +89,7 @@ const News = () => {
                             <CardActions className={s.manage_panel}>
                                 <div className={s.manage_panel_block}>
                                     <Link
-                                        to={`/products/${item.id}`}
+                                        to={`/news/${item.id}`}
                                         state={{ from: `${item.id}` }} style={{textDecoration:"none"}}>
                                         <Button size="small" style={{color:'black', fontWeight:"bolder", fontSize:10}}>{t("Read more")}</Button>
                                     </Link>

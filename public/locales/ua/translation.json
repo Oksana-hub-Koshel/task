@@ -3,14 +3,8 @@
   "news" : "Новини" ,
   "profile": "Профіль",
   "items": "позицій",
-  "items_0": "{{count}} позицій",
-  "items_1": "{{count}} позиція",
-  "items_2": "{{count}} позиції",
   "Add to Cart": "Додати в кошик",
-
-
   "Your Order": "Ваші замовлення",
-
   "Count": "Кількість",
   "Total": "Загальна сума",
   "Action": "Дії",
@@ -25,6 +19,15 @@
   "Email": "Пошта",
   "Order": "Замовлення",
   "Our Bestsellers:": "Наші бестселлери:",
+  "Login into your account": "Вхід до вашого акаунту",
+  "Password": "Пароль",
+  "Login": "Логін",
+  "Cart": "Корзина",
+  "Sign Out": "Вийти з акаунту",
+  "Shopping Cart": "Корзина",
+  "Remove": "Видалити",
+  "Order Summary": "Загальна сума"
+
 
 
 

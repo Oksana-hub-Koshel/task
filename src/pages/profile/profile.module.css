@@ -28,3 +28,8 @@
     justify-content: flex-end;
     font-size: 16px;
 }
+.link_out{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

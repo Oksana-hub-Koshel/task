@@ -1,6 +1,5 @@
 import React from 'react';
 import data from "../../mocks/carousel/data.json";
-
 import Slider from "react-slick";
 import {Link} from "react-router-dom"
 import s from "./carousel.module.css"
@@ -27,7 +26,7 @@ const Carousel = () => {
                     return (
                         <>
                             <Link
-                                to={`/info/${item.id}`}
+                                to={`/books/${item.id}`}
                                 state={{from: `${item.id}`}}>
                                 <div className={s.image}>
                                     <img src={item.image} />

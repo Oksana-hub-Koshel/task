@@ -54,3 +54,19 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.block_info{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    font-size: 20px;
+
+}
+.rating_block{
+    display: flex;
+    gap:10px;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-size: 20px;
+
+}

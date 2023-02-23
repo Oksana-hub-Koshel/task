@@ -12,8 +12,6 @@ import Select from '@mui/material/Select';
 
 export const Header = () => {
     const {t, i18n}=useTranslation()
-    const navigate=useNavigate()
-
 
     const changeLang = (lang) => {
         i18n.changeLanguage(lang)
@@ -82,7 +80,7 @@ export const Header = () => {
                                     </Select>
                                 </FormControl>
                             </div>
-                            <Link to="/cart" className="btn btn-secondary my-2 my-sm-0">My cart</Link>
+                            <Link to="/cart" className="btn btn-secondary my-2 my-sm-0">{t("Cart")}</Link>
 
                         </div>
                     </div>

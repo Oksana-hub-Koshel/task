@@ -2,10 +2,9 @@
   "home" : "Home" ,
   "news" : "News" ,
   "profile": "Profile",
-
+  "items": "items",
   "Add to Cart": "Add to Cart",
   "Your Order": "Your Order",
-  "items": "items",
   "Count": "Count",
   "Total": "Total",
   "Action": "Action",
@@ -19,9 +18,13 @@
   "City": "City",
   "Email": "Email",
   "Order": "Order",
-  "Our Bestsellers:": "Our Bestsellers:"
-
-
-
-
+  "Our Bestsellers:": "Our Bestsellers:",
+  "Login into your account": "Login into your account",
+  "Password": "Password",
+  "Login": "Login",
+  "Cart": "Cart",
+  "Sign Out": "Sign Out",
+  "Shopping Cart": "Shopping Cart",
+  "Remove": "Remove",
+  "Order Summary": "Order Summary"
 }

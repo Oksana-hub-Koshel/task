@@ -27,14 +27,18 @@ const Profile = () => {
                 <div className={s.info_field}>{t("Name")}: KSU</div>
                 <div className={s.info_field}>{t("City")}: KYIV</div>
                 <div className={s.info_field}>{t("Email")}: ksu.koshel@gmail.com</div>
-                <div className={s.info_field}>{t("Order")}: </div>
+                {/*<div className={s.info_field}>{t("Order")}: </div>*/}
+
+
+                <div className={s.link_out}>
+                    <button onClick={()=> signOut(()=> navigate("/", {replace:true}))}>{t("Sign Out")}</button>
+                </div>
+
                 <div className={s.link_home}>
                     <Link to="/" >{t("Back home")}</Link>
                 </div>
 
-                <div className={s.link_home}>
-                    <button onClick={()=> signOut(()=> navigate("/", {replace:true}))}>Sign Out</button>
-                </div>
+
 
             </div>
 

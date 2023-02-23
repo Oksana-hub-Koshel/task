@@ -1,7 +1,9 @@
 import './total.css'
 import {useSelector} from "react-redux";
+import {useTranslation} from "react-i18next";
 
 function Total() {
+    const {t, i18n}=useTranslation()
     const cart=useSelector(state=> state.cart.cart)
 
      const getTotal = () => {
@@ -16,11 +18,11 @@ function Total() {
 
     return (
         <div className="total">
-            <h2>ORDER SUMMARY</h2>
+            <h2>{t("Order Summary")}</h2>
             <div>
                 <p className="total__p">
-                    total ({getTotal().totalQuantity} items)
-                    : <strong>${getTotal().totalPrice}</strong>
+                    {t("Total")} ({getTotal().totalQuantity} {t("items")}
+                    : <strong>{getTotal().totalPrice}$)</strong>
                 </p>
             </div>
         </div>
