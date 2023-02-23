@@ -4,33 +4,39 @@
     "title": "Production",
     "author": "Susan J",
     "price": 170,
-    "image": "https://static.insalescdn.com/images/products/1/6193/615864369/978-5-389-14747-8.jpg"            },
+    "image": "https://static.insalescdn.com/images/products/1/6193/615864369/978-5-389-14747-8.jpg",
+  "description": "From century to century, people joke about the food, what is the secret of Shakespeare's greatness, why they overshadowed other miraculous representatives in the golden era of English dramaturgy and forever inscribed their name in the history of world literature and theater. Possibly, all on the right in the gaudy power of predilections, insinuated at the flooring in a thinned, non-repeating form. In Shakespeare's plays, a vivid picture of life emerges, grandiose human characters, capable, rich, rich-sided; the stench is marvelously authentic and at the same time oviyanі pravzhnyoї poetichnostyu.\n\nIn Denmark, six major tragedies by William Shakespeare have appeared in brilliant translations by Boris Pasternak. The book is accompanied by classic illustrations by English and American artists who have not been published before."
+  },
   {
     "id": 2,
     "title": "Release",
     "author": "Michael T",
     "price": 220,
-    "image": "https://static.insalescdn.com/images/products/1/6320/615864496/978-5-389-04786-0.jpg"
+    "image": "https://static.insalescdn.com/images/products/1/6320/615864496/978-5-389-04786-0.jpg",
+    "description": "Mysterious crimes in Boston! Tragic fires on ships in Boston Harbor - people died in the fiery chaos. A series of explosions in the city center, in offices and offices - there were even more victims. Tragic coincidences? Criminal intent! Who is behind what is happening? For what and why does he kill? The police involved in the case are confused. The townspeople are sure: terrible explosions are the work of the devil himself. Science comes to the rescue! Young scientists from the newly created Massachusetts Institute of Technology, which has yet to become the cradle of American science, take on the investigation. The stench of us may be at some cost to know and vikriti the cryptic evil-doers - and for whom the rest of the scientific findings are quickened ..."
   },
   {
     "id": 3,
     "title": "Foundation",
     "author": "Michael T",
     "price": 220,
-    "image": "https://static.insalescdn.com/images/products/1/7721/431865385/978-5-389-19099-3.jpg"
+    "image": "https://static.insalescdn.com/images/products/1/7721/431865385/978-5-389-19099-3.jpg",
+    "description": "\"Never try to bet in someone else's country.\" Tsgogo simple rules of Mike Ford vchiv dad, at the past a professional robber. Tіlki, apparently, filthy vchiv. Otherwise, Mike would not get involved in a divine adventure, where not only the life of yoga is at stake, but also all of Mike’s close sharpening ..."
   },
   {
     "id": 4,
     "title": "Perspective",
     "author": "Michael T",
     "price": 220,
-    "image": "https://static.insalescdn.com/images/products/1/6228/468375636/b499dfd0effa4f6294d343a4611b2fd3.jpg"
+    "image": "https://static.insalescdn.com/images/products/1/6228/468375636/b499dfd0effa4f6294d343a4611b2fd3.jpg",
+    "description": "So, meet Samuel Pozzi, a fashionable Parisian doctor of the late 19th century, the father of modern gynecology and a legendary womanizer; in a word, the same “man in red” depicted in the famous portrait by Sargent “Doctor Pozzi at home”. Through the prism of the doctor's journey, supplied with a letter of recommendation from Sargent to Henry James, to Foggy Albion, Barnes examines the Belle Époque (Belle Epoque) in all its diversity, and the reader cannot help but draw disturbing parallels with today. Moreover, the doctor is not alone: the refined aristocrats Prince de Polignac and Count Robert de Montesquieu - the prototype of Baron de Charlus from Proust's epic \"At the Jokes of the Wasted Hour\" - keep company with him."
   },
   {
     "id": 5,
     "title": "Development",
     "author": "Michael T",
     "price": 220,
-    "image": "https://static.insalescdn.com/images/products/1/1637/414918245/978-5-389-16196-2.jpg"
+    "image": "https://static.insalescdn.com/images/products/1/1637/414918245/978-5-389-16196-2.jpg",
+    "description": "A dramatic story of friendship between Marcello, a boy from a prosperous Neapolitan family, and Leo \"The American\", the son of a Camorrista, in which Eduardo, Marcello's father, plays an important role. Each of them has the right to vote, each of them goes his own way - some to death, some to salvation. masterfully woven by the author into the state plot of the story."
   }
 ]

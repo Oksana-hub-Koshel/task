@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {useLocation} from "react-router-dom";
+import {useLocation, useParams} from "react-router-dom";
 import s from "./bookID.module.css"
 import data from "./../../../mocks/carousel/data.json"
 
@@ -10,16 +10,15 @@ const BookId = () => {
     const { from } = location.state;
     const [bookId, setBookId]=useState([])
 
+    useEffect(() => {
+            data.find((elem)=>{
+                if(Number(elem.id)===Number(from)){
+                    setBookId(elem)
+                }
 
-        useEffect(() => {
-            data.map((elem)=>{
-            console.log(elem.id)
-            const el=elem.id===from
-            console.log(el)
+
         })}
-        , [from]);
-
-
+        , [from,data]);
 
     return (
         <div className={s.container}>
@@ -31,10 +30,13 @@ const BookId = () => {
                     {bookId.title}
                 </div>
                 <div>
-                    {bookId.author}
+                    Author: {bookId.author}
                 </div>
                 <div>
-                    {bookId.price}
+                    {bookId.description}
+                </div>
+                <div>
+                    Price: {bookId.price}$
                 </div>
 
 

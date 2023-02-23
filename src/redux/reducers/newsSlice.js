@@ -15,9 +15,6 @@ const initialState = {
 export const fetchNews=createAsyncThunk(
     'news/fetchNews',
     async (_,{rejectWithValue, dispatch})=>{
-        // dispatch(fetchNewsRequest())
-        // const res=await axios.get('https://fakestoreapi.com/products/')
-        // dispatch( fetchNewsSuccess(res))
         dispatch(fetchNewsRequest())
         NewsStoreService.getAllNews()
             .then((data)=>{
@@ -59,8 +56,8 @@ const newsSlice = createSlice({
 
         extraReducers: {
             [fetchNews.fulfilled]: () => console.log("ful"),
-            [fetchNews.pending]: () => console.log("ful"),
-            [fetchNews.rejected]: () => console.log("ful")
+            [fetchNews.pending]: () => console.log("pen"),
+            [fetchNews.rejected]: () => console.log("rej")
         }
     }
 

@@ -53,8 +53,8 @@ const bookSlice = createSlice({
 
         extraReducers: {
             [fetchBooks.fulfilled]: () => console.log("ful"),
-            [fetchBooks.pending]: () => console.log("ful"),
-            [fetchBooks.rejected]: () => console.log("ful")
+            [fetchBooks.pending]: () => console.log("pen"),
+            [fetchBooks.rejected]: () => console.log("rej")
         }
     },
 });

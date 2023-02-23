@@ -14,7 +14,6 @@ const Profile = () => {
         <>
         <div className={s.container}>
           <div>
-              {/*<img src={image}/>*/}
               <Avatar
                   alt="Remy Sharp"
                   src={image}
@@ -28,7 +27,6 @@ const Profile = () => {
                 <div className={s.info_field}>{t("City")}: KYIV</div>
                 <div className={s.info_field}>{t("Email")}: ksu.koshel@gmail.com</div>
                 {/*<div className={s.info_field}>{t("Order")}: </div>*/}
-
 
                 <div className={s.link_out}>
                     <button onClick={()=> signOut(()=> navigate("/", {replace:true}))}>{t("Sign Out")}</button>

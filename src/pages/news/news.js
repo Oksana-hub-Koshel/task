@@ -40,9 +40,6 @@ const News = () => {
     useEffect(()=>{
         dispatch(fetchNews())
 
-
-
-
     }, [])
 
     useEffect(()=> {

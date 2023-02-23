@@ -22,7 +22,6 @@ function App() {
     return (
         <AuthProvider>
             <Header />
-
             <div className="App">
                 <Routes>
                     <Route path="/" element={<Home/>}/>
@@ -32,7 +31,6 @@ function App() {
                     <Route path='/cart' element={<Cart />}/>
                     <Route path='*' element={<ErrorPage />}/>
                     <Route path='/login' element={<Login />}/>
-                    {/*<Route path="/profile" element={<Profile/>}/>*/}
                     <Route path="/profile" element={
                         <RequireAuth>
                             <Profile/>
