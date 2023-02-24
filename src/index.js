@@ -10,8 +10,14 @@ import {BookstoreServiceProvider} from "./components/bookservice-context/bookser
 import {BrowserRouter} from "react-router-dom";
 import i18n from "./i18n"
 import {Suspense} from "react";
-import Spinner from "./components/spinner/spinner";
+import { createBrowserHistory } from 'history'
 
+
+const basename = document.querySelector('base')?.getAttribute('href') ?? '/'
+
+export const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+});
 
 
 
@@ -21,7 +27,7 @@ root.render(
         <Provider store={store}>
             <ErrorBoundary>
                 <BookstoreServiceProvider value={BookstoreService}>
-                    <BrowserRouter>
+                    <BrowserRouter basename={basename}>
                         <Suspense fallback={<div>"Loading"</div>}>
                             <App/>
                         </Suspense>
