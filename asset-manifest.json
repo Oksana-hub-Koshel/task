@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Oksana-hub-Koshel/task.git/static/css/main.61941f9c.css",
+    "main.js": "/Oksana-hub-Koshel/task.git/static/js/main.d9db6b79.js",
+    "static/media/nbc-social-default.png": "/Oksana-hub-Koshel/task.git/static/media/nbc-social-default.a09f83423fd5aac0a9c0.png",
+    "static/media/slick.svg": "/Oksana-hub-Koshel/task.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Oksana-hub-Koshel/task.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Oksana-hub-Koshel/task.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Oksana-hub-Koshel/task.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Oksana-hub-Koshel/task.git/index.html",
+    "static/media/getFetch.cjs": "/Oksana-hub-Koshel/task.git/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.61941f9c.css.map": "/Oksana-hub-Koshel/task.git/static/css/main.61941f9c.css.map",
+    "main.d9db6b79.js.map": "/Oksana-hub-Koshel/task.git/static/js/main.d9db6b79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61941f9c.css",
+    "static/js/main.d9db6b79.js"
+  ]
+}
