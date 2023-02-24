@@ -27,7 +27,8 @@ const Carousel = () => {
                         <>
                             <Link
                                 to={`/books/${item.id}`}
-                                state={{from: `${item.id}`}}>
+                                state={{from: `${item.id}`}}
+                                key={item.id}>
                                 <div className={s.image}>
                                     <img src={item.image} />
                                 </div>
