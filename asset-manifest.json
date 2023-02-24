@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.88448abd.css",
-    "main.js": "/static/js/main.70e77b13.js",
+    "main.js": "/static/js/main.0206c221.js",
     "static/media/nbc-social-default.png": "/static/media/nbc-social-default.a09f83423fd5aac0a9c0.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -10,10 +10,10 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.88448abd.css.map": "/static/css/main.88448abd.css.map",
-    "main.70e77b13.js.map": "/static/js/main.70e77b13.js.map"
+    "main.0206c221.js.map": "/static/js/main.0206c221.js.map"
   },
   "entrypoints": [
     "static/css/main.88448abd.css",
-    "static/js/main.70e77b13.js"
+    "static/js/main.0206c221.js"
   ]
 }
